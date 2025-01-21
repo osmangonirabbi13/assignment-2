@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* font style start  */
+
+.quicksand-front{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/* font style end  */
+:root{
+    --primary-btn: #111111;
+}
+.body-section{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+/* nav section start  */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    width: 52px;
+    height: 62px;
+}
+.logo .text-logo{
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links ul{
+    display: flex;
+    
+}
+.nav-links li{
+    list-style-type: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    margin-right: 32px;
+}
+.menu-var{
+    display: none;
+}
+.nav-links .home{
+    color: #FEA301;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.nav-links .about{
+    color: #01ACFD;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-links .facilities{
+    color: #05D4DF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-links .admission{
+    color: #5D58EF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-btn button{
+    background-color: #FEA301;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 12px;
+}
+.nav-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+/* nav section end  */
+/* header-section start  */
+.header-section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.banner-title .color1{
+    color: #FEA301;
+}
+.banner-title .color2{
+    color: #01ACFD;
+}
+.banner-subtitle{
+    margin-top: -18px;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+.banner-btn{
+    margin-top: 24px;
+    background-color:var(--primary-btn);
+    border: none;
+    padding: 14px 45px;
+    border-radius: 12px;
+}
+.banner-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+/* header-section end  */
