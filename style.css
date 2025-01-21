@@ -83,7 +83,7 @@
     text-decoration: none;
     color: #ffffff;
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 /* nav section end  */
 /* header-section start  */
@@ -120,6 +120,137 @@
     text-decoration: none;
     color: #ffffff;
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 /* header-section end  */
+/* Standard Curriculum Section start */
+.standard-curriculum{
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    height: 880px;
+    background-size: contain;
+    
+}
+.standard-curriculum h2{
+    text-align: center;
+    font-size: 2.8rem;
+    padding-top: 50px;
+}
+.curriculum-cards{
+    display: flex;
+    gap: 29px;
+    align-items: center;
+    
+}
+.curruculum-card1{
+    background-image: linear-gradient(#DEF5FF , rgba(255, 255, 255, 1)30%);
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+
+}
+.curruculum-card1 img{
+    padding-top: 50px;
+    
+}
+.curruculum-card1 h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.curruculum-card1 p{
+    padding: 0px 40px;
+    line-height: 25px;
+    color: #808080;
+}
+.read-btn1{
+    padding: 30px 0;
+}
+.read-btn1 a{
+    text-decoration: none;
+    color: #64C8FF;
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+/* card 1 end */
+.curruculum-card2{
+    background-image: linear-gradient(#FFF4DC, rgba(255, 255, 255, 1)30%);
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+
+}
+.curruculum-card2 img{
+    padding-top: 50px;
+    
+}
+.curruculum-card2 h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.curruculum-card2 p{
+    padding: 0px 40px;
+    line-height: 25px;
+    color: #808080;
+}
+.read-btn2{
+    padding: 30px 0;
+}
+.read-btn2 a{
+    text-decoration: none;
+    color: #F0AA00;
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+/* card 2 end */
+.curruculum-card3{
+    background-image: linear-gradient(#EEE1FF, rgba(255, 255, 255, 1)30%);
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+
+}
+.curruculum-card3 img{
+    padding-top: 50px;
+    
+}
+.curruculum-card3 h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.curruculum-card3 p{
+    padding: 0px 40px;
+    line-height: 25px;
+    color: #808080;
+}
+.read-btn3{
+    padding: 30px 0;
+}
+.read-btn3 a{
+    text-decoration: none;
+    color: #8700FF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.errow{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 70px;
+}
+.errow .errow1{
+    background-color: #FEA301;
+    border-radius: 50%;
+    padding: 16px 22px;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.errow .errow2{
+    background-color: #FEA301;
+    border-radius: 50%;
+    padding: 16px 22px;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+/* Standard Curriculum Section end */
