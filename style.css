@@ -253,4 +253,209 @@
     color: #ffffff;
     font-size: 1.5rem;
 }
+.errow1:hover{
+    background-color: lightcoral;
+}
+.errow2:hover{
+    background-color: lightblue;
+}
 /* Standard Curriculum Section end */
+/* our-stories section start */
+.our-stories{
+    background-image:url(./assets/bg.png) ,linear-gradient(to bottom, #ffffff, rgb(253, 227, 176) 30%);
+    margin-top:-120px;
+    
+}
+.stories-title{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.stories-cards{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 15px;
+    margin: 0 30px;
+}
+.stories-card1{
+    background-color: #ffffff;
+    grid-row: span 2;
+    border-radius: 16px;
+    width: 100%;
+    position: relative;
+}
+.stories-card1 img{
+    border-radius: 10px 10px 0px 0px;
+    width: 540px;
+    height: 336px;
+}
+.stories-card1 p.date1{
+    position: absolute;
+    background-color:#3CD8E8;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 14px 18px;
+    border-radius: 46px; 
+    top: 295px;
+    left: 38px;
+}
+.stories-card1 .card-title1{
+    padding-top: 38px;
+    padding-left: 38px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.stories-card1 .card-description1{
+    padding-top: 16px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 10px;
+    color: #666666;
+    font-size: 1rem;
+}
+/* card 1 end */
+.stories-card2{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%; 
+
+}
+.stories-card2 img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 177px; 
+}
+.stories-card2 p.date2{
+    position: absolute;
+    background-color:#95B226;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 46px; 
+    top: 140px;
+    left: 38px;
+}
+.stories-card2 .card-title2{
+    padding-top: 19px;
+    padding-left: 38px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+/* card 2 end */
+.stories-card3{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%; 
+
+}
+.stories-card3 img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 177px; 
+}
+.stories-card3 p.date3{
+    position: absolute;
+    background-color:#5D58F0;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 46px; 
+    top: 140px;
+    left: 38px;
+}
+.stories-card3 .card-title3{
+    padding-top: 19px;
+    padding-left: 38px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+/* card 3 end */
+.stories-card4{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%; 
+
+}
+.stories-card4 img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 177px; 
+}
+.stories-card4 p.date4{
+    position: absolute;
+    background-color:#95B226;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 46px; 
+    top: 140px;
+    left: 38px;
+}
+.stories-card4 .card-title4{
+    padding-top: 19px;
+    padding-left: 38px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+/* card 4 end */
+.stories-card5{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%; 
+
+}
+.stories-card5 img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 177px; 
+}
+.stories-card5 p.date5{
+    position: absolute;
+    background-color:#95B226;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 46px; 
+    top: 140px;
+    left: 38px;
+}
+.stories-card5 .card-title5{
+    padding-top: 19px;
+    padding-left: 38px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+/* card 5 end */
+.our-storis-btn{
+    text-align: center;
+    
+}
+
+.our-storis-btn button{  
+    margin: 80px 0 50px 0;
+    background-color:var(--primary-btn);
+    border: none;
+    padding: 14px 45px;
+    border-radius: 12px;   
+}
+.our-storis-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+/* our-stories section end */
