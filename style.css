@@ -32,7 +32,7 @@
     width: 52px;
     height: 62px;
 }
-.logo .text-logo{
+.text-logo1{
     font-size: 1.25rem;
     font-weight: 800;
 }
@@ -464,9 +464,9 @@
 .footer-section{
     background-color: #01ACFD ;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 300px;
-    padding: 80px 140px;
+    /* padding: 80px 140px; */
     
 }
 .logo .text-logo{
@@ -481,11 +481,7 @@
 .about-school{
     color: #ffffff;
     font-size: 1rem;
-    padding-top: 15px;
-    
-}
-.footer-link{
-    
+    padding-top: 15px;   
 }
 .footer-link ul li{
     list-style-type: none;
@@ -506,4 +502,205 @@
 .icon-links img{
     gap: 10px;
 }
+/* responsive section */
 
+@media only screen and (max-width: 576px){
+    .body-section{
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* nav section start  */
+    .nav-section{
+        border-bottom: 1px solid #FEA301;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .logo img{
+        width: 46px;
+        height: 46px;
+        
+    }
+    .text-logo1{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .menu-var{
+        display: flex;
+        height: 40px;
+        width: 40px;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+    /* nav section end  */
+    /* header-section start  */
+    .header-section{
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+    .image-section img{
+        margin-top: 28px;
+    }
+
+    /* header-section end  */
+    /* Standard Curriculum Section start */
+    .curriculum-cards{
+        flex-direction: column;
+        padding-bottom: 50px;
+        
+    }
+    .errow{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 70px;
+    }
+    .errow1:hover{
+        background-color: lightcoral;
+    }
+    .errow2:hover{
+        background-color: lightblue;
+    }
+    /* Standard Curriculum Section end */
+    /* our-stories section start */
+    .stories-card1{
+        display: none;
+    }
+    .our-stories{
+        margin-top:820px;
+        
+    }
+    .stories-cards{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 15px;
+        margin: 0 30px;
+        
+    }
+    .stories-card2{
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: 100%; 
+    
+    }
+    .stories-card3{
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: 100%; 
+    
+    }
+    .stories-card4{
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: 100%; 
+    
+    }
+    .stories-card5{
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: 100%; 
+    
+    }
+    .stories-card2 p.date2{
+        position: absolute;
+        background-color:#95B226;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 10px 14px;
+        border-radius: 28px;  
+        top: 140px;
+        left: 20px;
+    }
+    .stories-card3 p.date3{
+        position: absolute;
+        background-color:#5D58F0;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 10px 14px;
+        border-radius: 28px;  
+        top: 140px;
+        left: 20px;
+    }
+    .stories-card4 p.date4{
+        position: absolute;
+        background-color:#95B226;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 10px 14px;
+        border-radius: 28px;  
+        top: 140px;
+        left: 20px;
+    }
+    .stories-card5 p.date5{
+        position: absolute;
+        background-color:#95B226;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 10px 14px;
+        border-radius: 28px; 
+        top: 140px;
+        left: 20px;
+    }
+    .stories-card2 .card-title2{
+        padding-top: 19px;
+        padding-left: 22px;
+        padding-right: 42px;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #000000;
+    }
+    .stories-card3 .card-title3{
+        padding-top: 19px;
+        padding-left: 22px;
+        padding-right: 42px;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #000000;
+    }
+    .stories-card4 .card-title4{
+        padding-top: 26px;
+        padding-left: 20px;
+        padding-right: 30px;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #000000;
+    }
+    .stories-card5 .card-title5{
+        padding-top: 30px;
+        padding-left: 22px;
+        padding-right: 30px;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #000000;
+    }
+    
+    /* our-stories section end */
+    
+    .footer-section{
+        padding: 20px 20px;
+        
+    }.footer-section{
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .footer-link ul li a {
+        text-align: left;
+        margin-left: 0;
+        
+    }
+
+}
