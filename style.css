@@ -17,6 +17,11 @@
     margin: 0 auto;
 }
 /* nav section start  */
+.marque{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: 700;
+}
 .nav-section{
     display: flex;
     justify-content: space-between;
@@ -510,6 +515,11 @@
         margin: 0 auto;
     }
     /* nav section start  */
+    .marque{
+        font-size: 1.5rem;
+        margin-top: 10px;
+        font-weight: 700;
+    }
     .nav-section{
         border-bottom: 1px solid #FEA301;
         align-items: center;
